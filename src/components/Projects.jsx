@@ -11,7 +11,7 @@ export default function Projects() {
   const [flagship, ...rest] = projects
 
   return (
-    <section id="projects" className="px-6 pb-28">
+    <section id="projects" className="px-6 pb-28 scroll-mt-24">
       <div className="max-w-site mx-auto">
         <motion.div
           initial="hidden"
