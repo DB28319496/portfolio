@@ -18,7 +18,13 @@ export default function Hero({ onStartProject }) {
       <div className="max-w-site mx-auto">
         <motion.div variants={container} initial="hidden" animate="show" className="max-w-3xl">
           <motion.p variants={item} className="eyebrow mb-6">
-            Dwayne Brown, Jr. — Solutions Engineer &amp; Technical Account Manager · Founder, Handoff
+            Dwayne Brown, Jr. — Solutions Engineer &amp; Technical Account Manager ·{' '}
+            <button
+              onClick={() => scrollTo('handoff')}
+              className="underline decoration-accent/40 underline-offset-2 hover:decoration-accent transition-colors"
+            >
+              Founder, Handoff
+            </button>
           </motion.p>
 
           <motion.h1

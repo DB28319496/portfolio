@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Projects from './components/Projects'
+import Handoff from './components/Handoff'
 import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
@@ -16,6 +17,7 @@ export default function App() {
       <main>
         <Hero onStartProject={() => setIntakeOpen(true)} />
         <Projects />
+        <Handoff onStartProject={() => setIntakeOpen(true)} />
         <About />
         <Contact />
       </main>
