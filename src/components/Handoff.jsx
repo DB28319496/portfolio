@@ -39,12 +39,14 @@ export default function Handoff({ onStartProject }) {
                 The practice
               </motion.p>
               <motion.h2 variants={fadeUp} className="font-display text-3xl sm:text-4xl font-bold tracking-tight leading-tight mb-4">
-                Handoff — my AI implementation practice.
+                Handoff — hand off the work that shouldn&apos;t need you.
               </motion.h2>
               <motion.p variants={fadeUp} className="text-paper/70 leading-relaxed max-w-xl">
-                I help business owners hand off the work that shouldn&apos;t need them —
-                designing and shipping real AI systems, not slide decks. Switchboard, a
-                24/7 AI receptionist for service businesses, is its flagship product.
+                I help owners and small teams put the right tools in place and dial them
+                in, so the repetitive work runs itself — and you get your time back for
+                what actually matters, whether that&apos;s the business or yourself.
+                Switchboard, which answers every call and books the job around the clock,
+                is its flagship.
               </motion.p>
             </div>
 

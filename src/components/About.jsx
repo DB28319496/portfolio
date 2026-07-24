@@ -40,10 +40,10 @@ export default function About() {
               doesn&apos;t have to stay at the surface: I can go as deep as the question does.
             </motion.p>
             <motion.p variants={fadeUp} className="text-ink-secondary leading-relaxed">
-              That builder&apos;s side has a name: <strong className="text-ink font-semibold">Handoff</strong>,
-              my AI implementation practice — I help business owners hand off the work
-              that shouldn&apos;t need them, with Switchboard, a 24/7 AI receptionist
-              for service businesses, as its flagship product.
+              That builder&apos;s side has a name: <strong className="text-ink font-semibold">Handoff</strong> —
+              I help owners and small teams put the right tools in place and dial them in,
+              so the repetitive work runs itself and they get their time back. Switchboard,
+              which answers every call and books the job 24/7, is its flagship product.
             </motion.p>
           </motion.div>
 

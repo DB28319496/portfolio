@@ -6,7 +6,7 @@ export const projects = [
     name: 'Switchboard',
     tagline: 'AI front desk for local service businesses',
     description:
-      'The flagship product from Handoff, my AI implementation practice — a done-for-you 24/7 AI receptionist for appointment-based businesses. This marketing and lead-capture site pairs an animated live dispatch board and missed-revenue ROI calculator with one job: convert visitors into free missed-call audit requests.',
+      'The flagship product from Handoff — a done-for-you front desk that answers every call and books the job around the clock, so owners stop losing work to missed calls. This marketing and lead-capture site pairs an animated live dispatch board and missed-revenue ROI calculator with one job: convert visitors into free missed-call audit requests.',
     tech: ['Astro 5', 'TypeScript', 'Tailwind CSS 4', 'Resend', 'Netlify'],
     links: { live: 'https://getswitchboardhq.com', github: '' },
     accent: '#b45309',
