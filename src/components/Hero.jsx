@@ -15,11 +15,11 @@ export default function Hero({ onStartProject }) {
 
   return (
     <section className="relative overflow-hidden px-6 pt-36 pb-20 sm:pt-44 sm:pb-24">
-      <div className="pointer-events-none absolute inset-0 -z-10" aria-hidden="true">
+      <div className="pointer-events-none absolute inset-0" aria-hidden="true">
         <div className="hero-aurora hero-aurora-1" />
         <div className="hero-aurora hero-aurora-2" />
       </div>
-      <div className="max-w-site mx-auto">
+      <div className="relative z-10 max-w-site mx-auto">
         <motion.div variants={container} initial="hidden" animate="show" className="max-w-3xl">
           <motion.p variants={item} className="eyebrow mb-6">
             Dwayne Brown, Jr. — Solutions Engineer &amp; Technical Account Manager ·{' '}

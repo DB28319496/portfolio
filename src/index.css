@@ -92,21 +92,21 @@
     pointer-events: none;
   }
   .hero-aurora-1 {
-    width: 46vw;
-    max-width: 560px;
+    width: 54vw;
+    max-width: 640px;
     aspect-ratio: 5 / 4;
-    left: -6vw;
-    top: 8%;
-    background: radial-gradient(circle, rgba(224, 78, 16, 0.28), transparent 70%);
+    left: -8vw;
+    top: 2%;
+    background: radial-gradient(circle, rgba(224, 78, 16, 0.24), transparent 70%);
     animation: aurora-drift-1 15s ease-in-out infinite alternate;
   }
   .hero-aurora-2 {
-    width: 40vw;
-    max-width: 480px;
+    width: 46vw;
+    max-width: 540px;
     aspect-ratio: 4 / 3;
-    right: -4vw;
-    top: 26%;
-    background: radial-gradient(circle, rgba(224, 78, 16, 0.18), transparent 70%);
+    right: -6vw;
+    top: 20%;
+    background: radial-gradient(circle, rgba(230, 120, 40, 0.16), transparent 72%);
     animation: aurora-drift-2 19s ease-in-out infinite alternate;
   }
   @keyframes aurora-drift-1 {
