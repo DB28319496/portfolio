@@ -84,6 +84,41 @@
     border-color: #e8e4de;
   }
 
+  /* Hero aurora — soft warm-accent glow behind the headline, drifting slowly. */
+  .hero-aurora {
+    position: absolute;
+    border-radius: 9999px;
+    filter: blur(72px);
+    pointer-events: none;
+  }
+  .hero-aurora-1 {
+    width: 46vw;
+    max-width: 560px;
+    aspect-ratio: 5 / 4;
+    left: -6vw;
+    top: 8%;
+    background: radial-gradient(circle, rgba(224, 78, 16, 0.28), transparent 70%);
+    animation: aurora-drift-1 15s ease-in-out infinite alternate;
+  }
+  .hero-aurora-2 {
+    width: 40vw;
+    max-width: 480px;
+    aspect-ratio: 4 / 3;
+    right: -4vw;
+    top: 26%;
+    background: radial-gradient(circle, rgba(224, 78, 16, 0.18), transparent 70%);
+    animation: aurora-drift-2 19s ease-in-out infinite alternate;
+  }
+  @keyframes aurora-drift-1 {
+    to { transform: translate(40px, 34px) scale(1.12); }
+  }
+  @keyframes aurora-drift-2 {
+    to { transform: translate(-34px, 22px) scale(1.07); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .hero-aurora { animation: none !important; }
+  }
+
   /* Multi-colour hover ring + glow.
      --glow-color is set per card from the project's own accent, then blended
      toward the site accent (warm) and a cool counterpart so every card sweeps

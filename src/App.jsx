@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Statement from './components/Statement'
 import Projects from './components/Projects'
+import HowIWork from './components/HowIWork'
 import Handoff from './components/Handoff'
 import About from './components/About'
 import Contact from './components/Contact'
@@ -16,7 +18,9 @@ export default function App() {
       <Navbar onStartProject={() => setIntakeOpen(true)} />
       <main>
         <Hero onStartProject={() => setIntakeOpen(true)} />
+        <Statement />
         <Projects />
+        <HowIWork />
         <Handoff onStartProject={() => setIntakeOpen(true)} />
         <About />
         <Contact />
