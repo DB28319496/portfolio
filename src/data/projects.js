@@ -9,6 +9,7 @@ export const projects = [
       'The flagship product from Handoff — a done-for-you front desk that answers every call and books the job around the clock, so owners stop losing work to missed calls. This marketing and lead-capture site pairs an animated live dispatch board and missed-revenue ROI calculator with one job: convert visitors into free missed-call audit requests.',
     tech: ['Astro 5', 'TypeScript', 'Tailwind CSS 4', 'Resend', 'Netlify'],
     links: { live: 'https://getswitchboardhq.com', github: '' },
+    screenshot: '/screenshots/switchboard.png',
     accent: '#b45309',
     category: 'Marketing Site',
   },
