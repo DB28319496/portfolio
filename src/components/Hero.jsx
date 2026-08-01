@@ -18,6 +18,7 @@ export default function Hero({ onStartProject }) {
       <div className="pointer-events-none absolute inset-0" aria-hidden="true">
         <div className="hero-aurora hero-aurora-1" />
         <div className="hero-aurora hero-aurora-2" />
+        <div className="hero-aurora hero-aurora-3" />
       </div>
       <div className="relative z-10 max-w-site mx-auto">
         <motion.div variants={container} initial="hidden" animate="show" className="max-w-3xl">

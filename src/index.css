@@ -84,36 +84,62 @@
     border-color: #e8e4de;
   }
 
-  /* Hero aurora — soft warm-accent glow behind the headline, drifting slowly. */
+  /* Hero aurora — warm glow blobs that roam across the whole hero on looping
+     paths at different speeds, so they overlap and drift apart continuously. */
   .hero-aurora {
     position: absolute;
     border-radius: 9999px;
-    filter: blur(72px);
+    filter: blur(76px);
     pointer-events: none;
+    will-change: transform;
   }
   .hero-aurora-1 {
-    width: 54vw;
-    max-width: 640px;
+    width: 48vw;
+    max-width: 600px;
     aspect-ratio: 5 / 4;
     left: -8vw;
-    top: 2%;
+    top: -6%;
     background: radial-gradient(circle, rgba(224, 78, 16, 0.24), transparent 70%);
-    animation: aurora-drift-1 15s ease-in-out infinite alternate;
+    animation: aurora-a 26s ease-in-out infinite;
   }
   .hero-aurora-2 {
-    width: 46vw;
+    width: 44vw;
     max-width: 540px;
     aspect-ratio: 4 / 3;
-    right: -6vw;
-    top: 20%;
-    background: radial-gradient(circle, rgba(230, 120, 40, 0.16), transparent 72%);
-    animation: aurora-drift-2 19s ease-in-out infinite alternate;
+    right: -8vw;
+    top: 2%;
+    background: radial-gradient(circle, rgba(230, 120, 40, 0.18), transparent 72%);
+    animation: aurora-b 32s ease-in-out infinite;
   }
-  @keyframes aurora-drift-1 {
-    to { transform: translate(40px, 34px) scale(1.12); }
+  .hero-aurora-3 {
+    width: 38vw;
+    max-width: 460px;
+    aspect-ratio: 1 / 1;
+    left: 32vw;
+    top: 34%;
+    background: radial-gradient(circle, rgba(224, 78, 16, 0.14), transparent 72%);
+    animation: aurora-c 38s ease-in-out infinite;
   }
-  @keyframes aurora-drift-2 {
-    to { transform: translate(-34px, 22px) scale(1.07); }
+  /* Each keyframe loop starts and ends at 0 for a seamless cycle. */
+  @keyframes aurora-a {
+    0%   { transform: translate(0, 0) scale(1); }
+    25%  { transform: translate(32vw, 10vh) scale(1.15); }
+    50%  { transform: translate(56vw, -4vh) scale(0.92); }
+    75%  { transform: translate(20vw, 14vh) scale(1.08); }
+    100% { transform: translate(0, 0) scale(1); }
+  }
+  @keyframes aurora-b {
+    0%   { transform: translate(0, 0) scale(1); }
+    30%  { transform: translate(-30vw, 16vh) scale(1.12); }
+    60%  { transform: translate(-48vw, 2vh) scale(0.9); }
+    100% { transform: translate(0, 0) scale(1); }
+  }
+  @keyframes aurora-c {
+    0%   { transform: translate(0, 0) scale(1); }
+    25%  { transform: translate(-24vw, -12vh) scale(1.2); }
+    50%  { transform: translate(18vw, 12vh) scale(0.88); }
+    75%  { transform: translate(-12vw, -6vh) scale(1.06); }
+    100% { transform: translate(0, 0) scale(1); }
   }
   @media (prefers-reduced-motion: reduce) {
     .hero-aurora { animation: none !important; }
