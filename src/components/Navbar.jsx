@@ -67,6 +67,14 @@ export default function Navbar({ onStartProject }) {
                 {label}
               </button>
             ))}
+            <a
+              href="/Dwayne-Brown-Jr-Resume.pdf"
+              target="_blank"
+              rel="noreferrer"
+              className="px-4 py-2 rounded-full text-sm text-ink-secondary hover:text-ink transition-all duration-150"
+            >
+              Résumé
+            </a>
           </div>
 
           <div className="flex items-center gap-2">
@@ -117,6 +125,15 @@ export default function Navbar({ onStartProject }) {
                   {label}
                 </motion.button>
               ))}
+              <a
+                href="/Dwayne-Brown-Jr-Resume.pdf"
+                target="_blank"
+                rel="noreferrer"
+                onClick={() => setMobileOpen(false)}
+                className="text-left px-4 py-3 rounded-lg text-ink-secondary hover:bg-line/50 hover:text-ink text-sm font-medium transition-all"
+              >
+                Résumé
+              </a>
               <div className="pt-2 pb-2 border-t border-line mt-1">
                 <button
                   onClick={() => { setMobileOpen(false); onStartProject() }}

@@ -20,12 +20,13 @@ export default function Footer() {
             ...(handoff.url ? [{ label: handoff.name, href: handoff.url }] : []),
             { label: 'GitHub', href: 'https://github.com/dwayne-brown-jr' },
             { label: 'LinkedIn', href: 'https://www.linkedin.com/in/dwaynebrown8/' },
+            { label: 'Résumé', href: '/Dwayne-Brown-Jr-Resume.pdf' },
             { label: 'Email', href: 'mailto:dwaynebrown2012@gmail.com' },
           ].map((link) => (
             <a
               key={link.label}
               href={link.href}
-              target={link.href.startsWith('http') ? '_blank' : undefined}
+              target={link.href.startsWith('mailto:') ? undefined : '_blank'}
               rel="noreferrer"
               className="text-sm text-ink-muted hover:text-accent transition-colors"
             >
