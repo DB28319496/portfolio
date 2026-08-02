@@ -121,7 +121,7 @@ export default function IntakeModal({ open, onClose }) {
               <div className="flex items-start justify-between p-6 pb-0">
                 <div>
                   <div className="h-[3px] w-8 rounded-full bg-accent mb-3" />
-                  <h2 className="font-display text-xl font-bold text-ink">Start a project</h2>
+                  <h2 className="font-display text-xl font-semibold text-ink">Start a project</h2>
                   <p className="text-sm text-ink-secondary mt-1">Website, web app, iOS, or AI build — tell me what you have in mind and I'll be in touch.</p>
                 </div>
                 <button

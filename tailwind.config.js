@@ -5,7 +5,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ['"Instrument Sans"', 'system-ui', 'sans-serif'],
-        display: ['"Instrument Sans"', 'system-ui', 'sans-serif'],
+        display: ['"Fraunces"', 'Georgia', 'serif'],
         mono: ['"Spline Sans Mono"', 'ui-monospace', 'monospace'],
       },
       colors: {

@@ -35,7 +35,7 @@ export default function HowIWork() {
           className="border-t border-line pt-10 mb-12"
         >
           <p className="eyebrow mb-3">How I work</p>
-          <h2 className="font-display text-3xl sm:text-4xl font-bold tracking-tight">
+          <h2 className="font-display text-3xl sm:text-4xl font-semibold tracking-tight">
             One person, the whole arc.
           </h2>
         </motion.div>
@@ -50,14 +50,14 @@ export default function HowIWork() {
             >
               <div className="mb-6 rounded-2xl border border-line bg-paper-raised p-7 sm:p-10 min-h-[52vh] flex flex-col justify-center shadow-[0_10px_40px_-24px_rgba(25,23,20,0.25)]">
                 <div className="grid sm:grid-cols-[auto_1fr] gap-6 sm:gap-10 items-start max-w-4xl">
-                  <span className="font-display text-6xl sm:text-8xl font-bold leading-none text-accent/20 tabular-nums">
+                  <span className="font-display text-6xl sm:text-8xl font-semibold leading-none text-accent/20 tabular-nums">
                     {s.n}
                   </span>
                   <div>
                     <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-ink-muted mb-3">
                       {s.kicker}
                     </p>
-                    <h3 className="font-display text-2xl sm:text-3xl font-bold tracking-tight mb-4">
+                    <h3 className="font-display text-2xl sm:text-3xl font-semibold tracking-tight mb-4">
                       {s.title}
                     </h3>
                     <p className="text-ink-secondary leading-relaxed max-w-xl">{s.body}</p>

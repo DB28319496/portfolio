@@ -24,7 +24,7 @@ export default function Projects() {
             <motion.p variants={fadeUp} className="eyebrow mb-3">
               Selected work
             </motion.p>
-            <motion.h2 variants={fadeUp} className="font-display text-3xl sm:text-4xl font-bold tracking-tight">
+            <motion.h2 variants={fadeUp} className="font-display text-3xl sm:text-4xl font-semibold tracking-tight">
               Built end-to-end. Shipped to production.
             </motion.h2>
           </div>

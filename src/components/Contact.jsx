@@ -49,7 +49,7 @@ export default function Contact() {
             </motion.p>
             <motion.h2
               variants={fadeUp}
-              className="font-display text-3xl sm:text-4xl font-bold tracking-tight leading-tight mb-5"
+              className="font-display text-3xl sm:text-4xl font-semibold tracking-tight leading-tight mb-5"
             >
               Let&apos;s work together.
             </motion.h2>

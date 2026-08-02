@@ -26,7 +26,7 @@ function Cover({ project }) {
         Private build
       </span>
       <p
-        className="absolute -bottom-3 left-4 font-display font-bold tracking-tight leading-none select-none whitespace-nowrap"
+        className="absolute -bottom-3 left-4 font-display font-semibold tracking-tight leading-none select-none whitespace-nowrap"
         style={{ color: project.accent, opacity: 0.22, fontSize: 'clamp(3.5rem, 9vw, 6.5rem)' }}
       >
         {project.name}
@@ -43,7 +43,7 @@ function Screenshot({ url, staticSrc, name, accent }) {
   if (errored) {
     return (
       <div className="w-full h-full flex items-center justify-center" style={{ background: `${accent}0a` }}>
-        <p className="font-display text-2xl font-bold opacity-25 tracking-tight" style={{ color: accent }}>
+        <p className="font-display text-2xl font-semibold opacity-25 tracking-tight" style={{ color: accent }}>
           {name}
         </p>
       </div>
@@ -86,7 +86,7 @@ export default function ProjectCard({ project, index = 0, flagship = false }) {
   const body = (
     <>
       <div className="flex items-baseline justify-between gap-4 mt-5 mb-1.5">
-        <h3 className="font-display text-xl sm:text-2xl font-bold tracking-tight group-hover:text-accent transition-colors">
+        <h3 className="font-display text-xl sm:text-2xl font-semibold tracking-tight group-hover:text-accent transition-colors">
           {project.name}
         </h3>
         <span className="font-mono text-[10px] uppercase tracking-[0.14em] text-ink-muted shrink-0">
@@ -118,7 +118,7 @@ export default function ProjectCard({ project, index = 0, flagship = false }) {
       </div>
       <div className="lg:col-span-2">
         <p className="eyebrow mb-3">Flagship</p>
-        <h3 className="font-display text-2xl sm:text-3xl font-bold tracking-tight mb-2 group-hover:text-accent transition-colors">
+        <h3 className="font-display text-2xl sm:text-3xl font-semibold tracking-tight mb-2 group-hover:text-accent transition-colors">
           {project.name}
         </h3>
         <p className="text-[15px] font-medium text-ink mb-3">{project.tagline}</p>

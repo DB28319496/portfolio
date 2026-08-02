@@ -39,7 +39,7 @@ export default function Statement() {
     <section ref={ref} className="px-6 py-32 sm:py-40 border-t border-line">
       <div className="max-w-4xl mx-auto">
         <p className="eyebrow mb-8">What I do</p>
-        <p className="font-display text-3xl sm:text-4xl lg:text-[2.75rem] font-bold tracking-tight leading-[1.15] text-balance">
+        <p className="font-display text-3xl sm:text-4xl lg:text-[2.75rem] font-semibold tracking-tight leading-[1.15] text-balance">
           {words.map((w, i) => (
             <Word
               key={i}

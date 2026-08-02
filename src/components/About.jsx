@@ -22,7 +22,7 @@ export default function About() {
             </motion.p>
             <motion.h2
               variants={fadeUp}
-              className="font-display text-3xl sm:text-4xl font-bold tracking-tight leading-tight mb-7"
+              className="font-display text-3xl sm:text-4xl font-semibold tracking-tight leading-tight mb-7"
             >
               Build it. Then explain it.
             </motion.h2>

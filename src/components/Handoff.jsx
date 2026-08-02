@@ -38,7 +38,7 @@ export default function Handoff({ onStartProject }) {
               <motion.p variants={fadeUp} className="font-mono text-[11px] font-medium uppercase tracking-[0.16em] text-accent mb-5">
                 The practice
               </motion.p>
-              <motion.h2 variants={fadeUp} className="font-display text-3xl sm:text-4xl font-bold tracking-tight leading-tight mb-4">
+              <motion.h2 variants={fadeUp} className="font-display text-3xl sm:text-4xl font-semibold tracking-tight leading-tight mb-4">
                 Handoff — hand off the work that shouldn&apos;t need you.
               </motion.h2>
               <motion.p variants={fadeUp} className="text-paper/70 leading-relaxed max-w-xl">

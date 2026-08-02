@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="border-t border-line px-6 py-8">
       <div className="max-w-site mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-3">
-          <span className="font-display text-sm font-bold">Dwayne Brown, Jr.</span>
+          <span className="font-sans text-sm font-bold">Dwayne Brown, Jr.</span>
           <span className="text-line-strong">·</span>
           <span className="text-ink-muted text-sm">Founder, {handoff.name}</span>
           <span className="text-line-strong">·</span>

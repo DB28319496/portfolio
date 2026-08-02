@@ -34,9 +34,9 @@ export default function Hero({ onStartProject }) {
 
           <motion.h1
             variants={item}
-            className="font-display text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.02] mb-7"
+            className="font-display text-5xl sm:text-6xl lg:text-7xl font-semibold tracking-tight leading-[1.02] mb-7"
           >
-            Software that <span className="text-accent">feels</span> as good
+            Software that <span className="text-accent italic font-medium">feels</span> as good
             as it works.
           </motion.h1>
 
